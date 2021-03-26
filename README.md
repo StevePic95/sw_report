@@ -21,10 +21,11 @@ Overall, the 90-minutes required to fill out the report have been reduced to und
 6. Once the user is ready, a new csv file is written and saved to the folder (and filename) specified by the user. The first row is a pre-existing list of all fields in the form, and the second row is the list from Step 4. This simple format allows Foxit Reader to import the csv and autopopulate the blank form.
 
 ### What still needs to be done?
-1. I suspect a more competent developer could do this in fewer than 800 lines.
+1. Shorten functions and make the code less verbose in general.
 2. Utilize defined functions more efficiently
 3. Enhance Readability
-4. Make the program's parsing ability more robust... ideally other facilities could use the program. (Right now it's very "Pennsauken Sanitary Landfill-specific").
+4. Make the program's parsing ability more robust... ideally all NJ facilities could use the program. (Right now it's very specific to our facility).
 5. Figure out how to get the program to run without UAC interruption.
 6. Is it possible for the program to run the reports and populate the blank form by itself?
 7. General cleanup and better in-code commenting.
+8. Better exception-handling.
